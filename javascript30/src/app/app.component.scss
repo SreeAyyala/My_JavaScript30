@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 5px;
+  border-bottom-color: crimson;
+  background-image: linear-gradient(to bottom right, #585858, #000000);
+  padding: 1vh;
+
+  .heading {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img:hover {
+      cursor: default;
+      transform: rotate(360deg);
+      transition: all 0.9s ease-in-out 0s;
+    }
+
+    #angular-logo {
+      height: 45px;
+      width: 45px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+      padding: 2px;
+      margin-left: 1vw;
+
+    }
+
+    h1 {
+      margin-left: 1vw;
+      color: white;
+    }
+  }
+
+
+  #name {
+    color: white;
+    margin-right: 1vw;
+  }
+}
